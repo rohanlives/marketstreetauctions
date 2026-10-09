@@ -4,6 +4,7 @@ import Hero from "@/components/Hero";
 import FeaturedAuctions from "@/components/FeaturedAuctions";
 import Categories from "@/components/Categories";
 import Footer from "@/components/Footer";
+import WhyChooseUs from "@/components/WhyChooseUs";
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
       <SearchInventory />
       <FeaturedAuctions />
       <Categories />
+      <WhyChooseUs />
       <Footer />
     </main>
   );

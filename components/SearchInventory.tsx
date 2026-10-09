@@ -14,10 +14,10 @@ export default function SearchInventory() {
             <input
               type="text"
               placeholder="Search by keyword..."
-              className="rounded-lg p-4 text-gray-800"
+              className="rounded-lg bg-white p-4 text-slate-900 placeholder:text-gray-500"
             />
 
-            <select className="rounded-lg p-4 text-gray-800">
+            <select className="rounded-lg bg-white p-4 text-slate-900">
               <option>All Categories</option>
               <option>Heavy Equipment</option>
               <option>Industrial Equipment</option>
@@ -31,7 +31,7 @@ export default function SearchInventory() {
             <input
               type="text"
               placeholder="Location"
-              className="rounded-lg p-4 text-gray-800"
+              className="rounded-lg bg-white p-4 text-slate-900 placeholder:text-gray-500"
             />
 
             <button className="rounded-lg bg-orange-500 px-6 py-4 font-bold text-white transition hover:bg-orange-600">
