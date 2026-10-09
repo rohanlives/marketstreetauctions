@@ -1,4 +1,4 @@
-export default function FeaturedAuctions() {
+export default function FeaturedInventory() {
   const auctions = [
     {
       title: "CAT 320 Excavator",
@@ -56,7 +56,7 @@ export default function FeaturedAuctions() {
                 </p>
 
                 <button className="mt-6 w-full rounded-lg bg-slate-900 py-3 font-semibold text-white transition hover:bg-orange-500">
-                  View Auction
+                  View Details
                 </button>
 
               </div>

@@ -1,7 +1,7 @@
 import SearchInventory from "@/components/SearchInventory";
 import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
-import FeaturedAuctions from "@/components/FeaturedAuctions";
+import FeaturedInventory from "@/components/FeaturedInventory";
 import Categories from "@/components/Categories";
 import Footer from "@/components/Footer";
 import WhyChooseUs from "@/components/WhyChooseUs";
@@ -12,7 +12,7 @@ export default function Home() {
       <Navbar />
       <Hero />
       <SearchInventory />
-      <FeaturedAuctions />
+      <FeaturedInventory />
       <Categories />
       <WhyChooseUs />
       <Footer />

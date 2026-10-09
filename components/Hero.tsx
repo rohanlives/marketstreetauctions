@@ -28,7 +28,7 @@ export default function Hero() {
           </h1>
 
           <p className="mt-6 max-w-2xl text-xl text-gray-300">
-            Browse online auctions featuring construction equipment,
+            Browse online inventory featuring construction equipment,
             motorcycles, ATVs, trailers, shop equipment, milling
             machinery and more.
           </p>
@@ -36,7 +36,7 @@ export default function Hero() {
           <div className="mt-10 flex flex-wrap gap-4">
 
             <button className="rounded-lg bg-orange-500 px-8 py-4 text-lg font-semibold transition hover:bg-orange-600">
-              View Current Auctions
+              Browse Inventory
             </button>
 
             <button className="rounded-lg border border-white px-8 py-4 text-lg font-semibold transition hover:bg-white hover:text-slate-900">

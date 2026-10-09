@@ -16,7 +16,7 @@ export default function Navbar() {
           </Link>
 
           <Link href="/auctions" className="hover:text-orange-400 transition">
-            Current Auctions
+            Inventory
           </Link>
 
           <Link href="/sell" className="hover:text-orange-400 transition">
