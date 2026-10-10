@@ -1,3 +1,4 @@
+import Link from "next/link";
 export default function Hero() {
   return (
     <section className="relative bg-slate-900 text-white">
@@ -35,9 +36,12 @@ export default function Hero() {
 
           <div className="mt-10 flex flex-wrap gap-4">
 
-            <button className="rounded-lg bg-orange-500 px-8 py-4 text-lg font-semibold transition hover:bg-orange-600">
-              Browse Inventory
-            </button>
+            <Link
+  href="/inventory"
+  className="rounded-lg bg-orange-500 px-8 py-4 text-lg font-semibold transition hover:bg-orange-600"
+>
+  Browse Inventory
+</Link>
 
             <button className="rounded-lg border border-white px-8 py-4 text-lg font-semibold transition hover:bg-white hover:text-slate-900">
               Sell Your Equipment

@@ -15,7 +15,7 @@ export default function Navbar() {
             Home
           </Link>
 
-          <Link href="/auctions" className="hover:text-orange-400 transition">
+          <Link href="/inventory" className="hover:text-orange-400 transition">
             Inventory
           </Link>
 
